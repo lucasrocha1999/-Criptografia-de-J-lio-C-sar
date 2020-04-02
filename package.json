@@ -1,0 +1,23 @@
+{
+  "name": "criptografia_de_cesar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sucrase-node ./src/app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "form-data": "^2.3.3",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "sucrase": "^3.13.0"
+  }
+}
